@@ -2,7 +2,7 @@
 
 
 
-namespace Open_Lab_10._02
+namespace Open_Lab_10._03
 {
     class Program
     {
