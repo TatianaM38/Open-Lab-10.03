@@ -49,14 +49,11 @@ namespace Open_Lab_10._02
         }
         public void SetReleaseDate(int dt)
         {
-            if (dt < 1450 || dt > 2021)
-            {
-                releaseDate = -1;
-            }
-            else
-            {
-                releaseDate = dt;
-            }
+            if (dt < 1450 || dt > 2021)        
+                releaseDate = -1;    
+            
+            else          
+                releaseDate = dt;         
         }
         public void PrintBookInfo()
         {
